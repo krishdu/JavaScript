@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Learning JS</title>
+</head>
+<body class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h4>Q1. Sum of 5 numbers</h4>
+				<div>
+					<input type="number" id="input1" value="0" onChange="fnSum()">
+					<input type="number" id="input2" value="0" onChange="fnSum()">
+					<input type="number" id="input3" value="0" onChange="fnSum()">
+					<input type="number" id="input4" value="0" onChange="fnSum()">
+					<input type="number" id="input5" value="0" onChange="fnSum()">
+			    </div>	
+				Result:
+				<input type="number" id="ans"  readonly value="0">
+			</div>
+			<div class="col-md-6">
+				<h4>Q2. Star pattern</h4>
+				<div>
+					<button type="button" onClick="printStar()">Print Pattern</button>
+					<p id="pattern"></p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-6">
+				<h4>Q3. Largest Of 3 numbers</h4>
+				<div>
+					<input type="number" id="largest1" value="0">
+					<input type="number" id="largest2" value="0">
+					<input type="number" id="largest3" value="0">
+					<button type="button" onClick="largestOne()">Get Largest</button>
+			    </div>	
+				Result:
+				<input type="number" id="largest"  readonly value="0">
+			</div>
+			<div class="col-md-6">
+				<h4>Q4. Print name in Capital</h4>
+				<button type="button" onClick="printCapital()">Change to Upper Case</button>
+				<h4 id="printCap"></h4>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" defer src="js/main_script.js"></script>
+</body>
+
+</html>
