@@ -42,3 +42,14 @@ Todoly
 <p align="center">
 <img alt="GIF" src="https://github.com/krishdu/Todoly/blob/master/todoly-image.gif?raw=true" width="800" height="400"/>
 </p>
+
+```
+Password Generator
+```
+
+| [Codebase (👆)](https://github.com/krishdu/Password-Generator) | [Live Application (👆)](https://krishdu.github.io/Password-Generator/) |
+| ------ | ------ |
+
+<p align="center">
+<img alt="GIF" src="https://github.com/krishdu/Password-Generator/blob/master/password-generator-image.gif?raw=true" width="800" height="400"/>
+</p>
